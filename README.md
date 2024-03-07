@@ -10,7 +10,7 @@ If you're seeing this, you've probably already done this step. Congrats!
 
 npm create svelte@latest c2cpayru
 ```
-
+test hooks
 
 ## Developing
 
