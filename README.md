@@ -11,6 +11,7 @@ If you're seeing this, you've probably already done this step. Congrats!
 npm create svelte@latest c2cpayru
 ```
 
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
