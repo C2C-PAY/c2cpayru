@@ -7,6 +7,9 @@ on:
 jobs:
   build2:
     runs-on: ubuntu-latest
+    permissions:
+      packages: write
+      contents: read
 
     steps:
     - name: Check out repository
@@ -20,7 +23,7 @@ jobs:
       with:
             registry: ghcr.io
             username: ${{ github.repository_owner }}
-            password: ${{ secrets.GIT_TOKEN }}
+            password: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Preset Image Name
       run: echo "IMAGE_URL=$(echo ghcr.io/${{ github.repository_owner }}/${{ github.event.repository.name }}:$(echo ${{ github.sha }} | cut -c1-7) | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
