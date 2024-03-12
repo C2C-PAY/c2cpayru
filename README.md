@@ -4,19 +4,15 @@ Everything you need to build a Svelte project, powered by [`create-svelte`](http
 
 ## Creating a project
 
-If you're seeing this, you've probably already done this step. Congrats!
-
 ```bash
-
 npm create svelte@latest c2cpayru
 ```
-test 
 
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
-```bash
+
 npm run dev
 
 # or start the server and open the app in a new browser tab
