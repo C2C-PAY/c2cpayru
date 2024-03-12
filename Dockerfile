@@ -7,8 +7,7 @@ COPY . /usr/src/app
 RUN apk --no-cache add curl tzdata
 RUN cp /usr/share/zoneinfo/$TZ /etc/localtime && echo $TZ > /etc/timezone
 RUN npm install --force
-COPY ./src ./src
-COPY ./public ./public
+COPY . ./
 RUN npm run build
 
 FROM node:20-alpine
