@@ -27,7 +27,7 @@
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 
 
-	import logo from '$lib/assets/с2сpay64.png'
+	import logo from '../lib/assets/с2сpay64.png'
 </script>
 
 <AppShell>

@@ -4,8 +4,8 @@
 	import { Stepper, Step } from '@skeletonlabs/skeleton';
 	import { TabGroup, Tab, TabAnchor } from '@skeletonlabs/skeleton';
 	
-	import logo from '$lib/assets/с2сpay320.png'
-	import brc from '$lib/assets/c2cpaybrc.png'
+	import logo from '../lib/assets/с2сpay320.png'
+	import brc from '../lib/assets/c2cpaybrc.png'
 
 	let tabSet: number = 0;
 </script>
